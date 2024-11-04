@@ -1,0 +1,77 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.paint{
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    width: 70%;
+    height: 100%;
+    
+}
+.pixel{
+    background-color: black;
+    border: 1px solid white
+}
+
+.color{
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(11, 50px);
+}
+
+.selector{
+    border: 1px solid black;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+.gray{
+    background-color: gray;
+}
+.clear{
+    
+}
+.vedro{
+    width: 45px;
+}
+.zalivka{
+    border: 1px solid black;
+}
+.selected-color{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+.vedro-arrow{
+    width: 50px;
+    height: 50px;
+}
